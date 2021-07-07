@@ -1,0 +1,37 @@
+.register-container{
+    background: url('https://1.bp.blogspot.com/-TUvImkjsEeY/Xn1_YeholfI/AAAAAAAAaGk/0Zt6ef66OT8KHWQF9eHrgvRVX6LlvlRlgCLcBGAsYHQ/s1600/Nhung-hinh-anh-dep-nhat-the-gioi%2B%25284%2529.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    overflow-x: hidden;
+  }
+  .register-container .aside-right{
+    height: 100vh;
+    background-color: #fff;
+    width: 30%;
+  }
+  .register-container .aside-right .header{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .register-container  .input-name{
+    display: flex;
+    justify-content: space-between;
+  }
+  .register-container .input-name .input-wrapper{
+    width: 45%;
+  }
+  #register-form{
+    padding: 20px;
+  }
+  
+  .form-action{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }

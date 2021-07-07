@@ -1,0 +1,39 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .input-wrapper {
+    margin-bottom: 10px;
+  }
+  #register-form .input-wrapper input{
+    border:1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  .btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgb(55, 22, 236);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .error{
+    color: #FF0000;
+    position: relative;
+    left: 5px;
+    
+  }
+  #login-form .input-wrapper input{
+    border:1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 90%;
+    margin-left: 6px;
+  }
+  #btn-login{
+    float: right;
+    margin-right: 6px;
+  }
+  
